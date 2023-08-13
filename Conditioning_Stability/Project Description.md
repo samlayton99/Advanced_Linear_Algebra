@@ -1,2 +1,0 @@
-# Conditioning Stability Project Description
-
