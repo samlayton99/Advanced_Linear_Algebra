@@ -1,8 +1,6 @@
 # Simplex Project Description
+
 The Simplex Method is a straightforward algorithm for finding optimal solutions to optimization problems with linear constraints and cost functions. Because of its simplicity and applicability, this algorithm has been named one of the most important algorithms invented within the last 100 years. In this project I implement a standard Simplex solver for the primal problem.
-
-Here's the markdown source code for your desired README document:
-
 
 ## Mathematical Background and Overview of Functions
 
