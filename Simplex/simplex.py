@@ -156,7 +156,7 @@ class SimplexSolver(object):
 
 
 # Problem 6
-def prob6(filename='productMix.npz'):
+def prob6(filename='input_files/productMix.npz'):
     """Solve the product mix problem for the data in 'productMix.npz'.
 
     Parameters:

@@ -38,7 +38,7 @@ def line_fit():
     squares line.
     """
     # Load the data and separate the columns.
-    data = np.load("housing.npy")
+    data = np.load("input_files/housing.npy")
     v1, b = data[:,0], data[:,1]
 
     # Create the matrix A and find the least squares solution.
@@ -65,7 +65,7 @@ def polynomial_fit():
     """
     # Initialize the degree, column vectors, and load the data.
     degree = [3, 6, 9, 12]
-    data = np.load("housing.npy")
+    data = np.load("input_files/housing.npy")
     v1, b = data[:,0], data[:,1]
 
     # Create the matrix A and make a smooth domain using np.linspace for plotting.
@@ -125,7 +125,7 @@ def ellipse_fit():
     plot_ellipse() to plot the ellipse.
     """
     # Load the data and separate the columns.
-    data = np.load("ellipse.npy")
+    data = np.load("input_files/ellipse.npy")
     x, y = data[:,0], data[:,1]
 
     # Create the matrix A and find the least squares solution.

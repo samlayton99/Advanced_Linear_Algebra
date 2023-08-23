@@ -170,7 +170,7 @@ def prob5(n):
         (float): The forward error using the QR decomposition.
     """
     # Load the data and build the Vandermonde matrix
-    xk, yk = np.load("stability_data.npy").T
+    xk, yk = np.load("input_files/stability_data.npy").T
     A = np.vander(xk, n+1)
 
     # Solve the least squares problem using the inverse and QR decomposition
